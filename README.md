@@ -65,8 +65,12 @@ producer:
 
 ## consumer-alfa:foo & consumer-beta:foo
 
-![Two partitions and two consumer with same groupId](doc/foo_foo.png)
+![Two partitions and two consumer with same groupId](doc/img/foo_foo.png)
 
 ## consumer-alfa:foo & consumer-beta:bar
 
-![Two partitions and two consumer with different groupId](doc/foo_bar.png)
+![Two partitions and two consumer with different groupId](doc/img/foo_bar.png)
+
+## Dispense
+
+Vedi il contenuto della cartella `doc`.
