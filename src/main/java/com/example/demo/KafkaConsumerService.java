@@ -22,7 +22,7 @@ public class KafkaConsumerService {
 	public void listenWithHeaders(
 			@Payload String message,
 			@Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
-		logger.info("Received Message in group with groupId=" + groupId + ": " + message + " from partition: " + partition);
+		logger.info("Received Message in group " + groupId + ": " + message + " from partition: " + partition);
 	}
 
 }
