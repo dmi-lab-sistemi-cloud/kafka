@@ -33,7 +33,7 @@ services:
       KAFKA_BOOTSTRAPADDRESS: kafka:9092
       SPRING_PROFILES_ACTIVE: consumer
       MESSAGE_TOPIC_NAME: spring-topic
-      GROUP_ID: foo
+      GROUP_ID: bar
 
   zookeeper:
     image: zookeeper
